@@ -1,0 +1,110 @@
+html,body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: whitesmoke;
+	color: whitesmoke;
+}
+.box_all {
+	margin: 0 auto;
+	width: 90%;
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	margin-bottom: 15px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    background-color: #333333;
+    border: none;
+    box-shadow: 0px 10px 30px rgba(#333333,0.4)
+}
+.table_body{
+    width: 100%;
+    color: white;
+}
+.btn{
+	background-color: white(0, 0, 0, 0.08);
+	/* padding: 10px 20px; */
+	border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+#new_post{
+    text-align: left;
+    margin-left: 10%;
+}
+
+.form_add_title {
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border: 3px solid #333333;
+    border-radius: 5px;
+    background-color: #333333;
+    color: whitesmoke;
+}
+
+.form_add_desc {
+    width: 90%;
+    height: 100px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 2px solid #e3e5e8;
+    border-radius: 5px;
+    background-color: #333333;
+    color: whitesmoke;
+}
+
+.button_new_post{
+    background-color: #333333;
+	padding: 10px 8px;
+	border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+router-link, a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.red:focus {
+    border: 4px solid red;
+}
+
+.green:focus {
+    border: 4px solid green;
+}
+
+.red_b {
+    background-color: red;
+    color: whitesmoke;
+}
+
+.green_b {
+    background-color: greenyellow;
+    color: black;
+}
+.edit_text {
+     text-align: left;
+     padding: 0px 5%;
+}
+
+#header {
+    text-align: left;
+}
+
+#header > .message {
+    display: inline;
+    margin-left: 5%;
+}
+
+#header > .button_new_post {
+    float: right;
+    padding: 8px 16px;
+    margin-right: 5%;
+    margin-top: 5px;
+}
